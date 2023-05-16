@@ -19,6 +19,7 @@ public class QuestionTwoSolution {
        System.out.println(nThRowOfPascalTriangle(17));
     }
 
+    //to print whole pascal triangle
     private static void pascalTriangle(int N) {
         for (int i = 0; i <= N; i++) {
             for (int j = 0; j <= N - i; j++) {
@@ -36,6 +37,7 @@ public class QuestionTwoSolution {
         return i * factorial(i - 1);
     }
 
+    //to get the nth row of pascal triangle
     private static ArrayList<Long> nThRowOfPascalTriangle(int N) {
         ArrayList<Long> arrayList = new ArrayList<>();
         for (int i = 0; i <= N; i++) {
