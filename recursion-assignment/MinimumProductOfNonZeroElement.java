@@ -1,10 +1,13 @@
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @author pranoy.chakraborty
  * @Date 13/06/2023
  */
 public class MinimumProductOfNonZeroElement {
 
-    public static int mod = (int) (1e9 + 7);
+    public static long mod = (int) (1e9 + 7);
 
     public static void main(String[] args) {
         System.out.println(minNonZeroProduct(2));
