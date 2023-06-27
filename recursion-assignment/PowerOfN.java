@@ -4,7 +4,7 @@
  */
 public class PowerOfN {
     public static void main(String[] args) {
-        System.out.println(myPow(2.0000, 10));
+        System.out.println(myPow(2.0000, 5));
         System.out.println(myPow(2.000,-2));
     }
 

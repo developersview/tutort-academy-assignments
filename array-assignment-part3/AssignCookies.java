@@ -6,7 +6,7 @@ import java.util.Arrays;
  */
 public class AssignCookies {
     public static void main(String[] args) {
-        System.out.println(findContentChildren(new int[]{1, 2, 3}, new int[]{1, 2}));
+        System.out.println(findContentChildren(new int[]{1, 2,3}, new int[]{1, 1}));
     }
 
     static int findContentChildren(int[] g, int[] s) {

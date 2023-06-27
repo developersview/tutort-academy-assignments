@@ -16,7 +16,12 @@ public class DegreeOfArray {
         //simply entering nums in hashmap, keys are numbers, values are frequency/ degree of each element
         //Find the max degree
         for (int num : nums) {
-            freq.put(num, freq.getOrDefault(num, 0) + 1);
+            //freq.put(num, freq.getOrDefault(num, 0) + 1);
+            if(freq.containsKey(num)){
+                freq.put(num, freq.get(num)+1);
+            }else{
+                freq.put(num,1);
+            }
             degree = Math.max(degree, freq.get(num));
         }
         //clearing the hashmap, to utilize the same map, no extra space, hence SC -> O(n)
